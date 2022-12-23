@@ -21,7 +21,8 @@
 
     <div class="container">
       <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
+        
+        <!-- <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Support</h4>
           </div>
@@ -35,37 +36,37 @@
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Request A Consult</button>
           </div>
+        </div> -->
+        
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">General Support</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/ consult</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Any General Tech Questions Or Advice Needed</li>
+              <li>Homework Help and Tutoring Requests Welcome!</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Homework Help On Call</button>
+          </div>
         </div>
+
         <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Dev Work</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$20 <small class="text-muted">/ mo</small></h1>
+            <h1 class="card-title pricing-card-title">$20 <small class="text-muted">/ feature</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
+              <li>Component Based Model</li>
+              <li>Pick The Features You Want</li>
+              <li>Delivery Schedules Based On Number Of Features Needed</li>
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-primary">Request More Info</button>
           </div>
         </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Tutoring Assistance</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Homework Help On Call</button>
-          </div>
-        </div>
+        
         <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">Apprenticeships</h4>
@@ -73,10 +74,9 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
+              <li>Hands On Learning Building Products and Services With Experienced Developers</li>
+              <li>Guild Based Participation Structure (Contributions Earn Membership In Tiered Progression Format)</li>
+              <li>Mentoring and Support For Freelance Career Development And Trajectory</li>
             </ul>
             <button type="button" class="btn btn-lg btn-block btn-primary">Wanna Join The Ranks?</button>
           </div>
