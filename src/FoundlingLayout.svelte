@@ -1,5 +1,16 @@
 <script>
 
+let contact_href = "mailto: syndicated.circuitry@gmail.com";
+let contact_href_consult = contact_href + "?subject=Request%20A%20Free%20Consultation";
+let contact_href_homework = contact_href + "?subject=Homework%20Help%20And%20Tutoring";
+let contact_href_devwork = contact_href + "?subject=Dev%20Work";
+let contact_href_greatwork = contact_href + "?subject=Apprenticeships";
+
+function alertTodo(anchorComponent){
+
+  // TODO: implement everywhere this is called
+  alert(anchorComponent + " under construction, check back later");
+}
 
 </script>
 
@@ -11,7 +22,7 @@
         <a class="p-2" href="#">Support</a>
         <a class="p-2" href="#">Pricing</a>
       </nav>
-      <a class="btn btn-outline-primary" href="#">Request A Free Consultation</a>
+      <a href={contact_href_consult} target="_blank" class="btn btn-outline-primary">Request A Free Consultation</a>
     </div>
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -22,22 +33,6 @@
     <div class="container">
       <div class="card-deck mb-3 text-center">
         
-        <!-- <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Support</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Request A Consult</button>
-          </div>
-        </div> -->
-        
         <div class="card mb-4 box-shadow">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">General Support</h4>
@@ -46,9 +41,9 @@
             <h1 class="card-title pricing-card-title">$10 <small class="text-muted">/ consult</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Any General Tech Questions Or Advice Needed</li>
-              <li>Homework Help and Tutoring Requests Welcome!</li>
+              <li>Homework Help and Tutoring Requests By Appointment (on call for additional fee)</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Homework Help On Call</button>
+            <a href={contact_href_homework} target="_blank" class="btn btn-lg btn-block btn-primary">Homework Help Inquiries Welcome</a>
           </div>
         </div>
 
@@ -63,7 +58,7 @@
               <li>Pick The Features You Want</li>
               <li>Delivery Schedules Based On Number Of Features Needed</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Request More Info</button>
+            <a href={contact_href_devwork} target="_blank" class="btn btn-lg btn-block btn-primary">Request More Info</a>
           </div>
         </div>
         
@@ -78,18 +73,22 @@
               <li>Guild Based Participation Structure (Contributions Earn Membership In Tiered Progression Format)</li>
               <li>Mentoring and Support For Freelance Career Development And Trajectory</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Wanna Join The Ranks?</button>
+            <a href={contact_href_greatwork} target="_blank" class="btn btn-lg btn-block btn-primary">Wanna Join The Ranks?</a>
           </div>
         </div>
       </div>
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
-          <div class="col-12 col-md">
+
+          <!-- TODO: COPYRIGHT RESEARCH -->
+          <!-- <div class="col-12 col-md">
             <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-          </div>
-          <div class="col-6 col-md">
+            <small class="d-block mb-3 text-muted">&copy; 2022</small>
+          </div> -->
+
+          <!-- TODO: expand this -->
+          <!-- <div class="col-6 col-md">
             <h5>Features</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Cool stuff</a></li>
@@ -108,7 +107,8 @@
               <li><a class="text-muted" href="#">Another resource</a></li>
               <li><a class="text-muted" href="#">Final resource</a></li>
             </ul>
-          </div>
+          </div> -->
+
           <div class="col-6 col-md">
             <h5>About</h5>
             <ul class="list-unstyled text-small">
@@ -116,6 +116,13 @@
               <li><a class="text-muted" href="#">Locations</a></li>
               <li><a class="text-muted" href="#">Privacy</a></li>
               <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Contact</h5>
+            <ul class="list-unstyled text-small">
+              <li><a href={contact_href} target="_blank">Email Us</a>
             </ul>
           </div>
         </div>
