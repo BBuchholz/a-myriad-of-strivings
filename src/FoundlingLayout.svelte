@@ -15,7 +15,7 @@ function alertTodo(anchorComponent){
 </script>
 
 <div class="main">
-  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom box-shadow">
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  box-shadow">
       <h1 class="my-0 mr-md-auto font-weight-normal">A Myriad Of Services</h1>
       <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2" href="#">Features</a>
@@ -26,8 +26,19 @@ function alertTodo(anchorComponent){
     </div>
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <!-- <h1 class="display-4">Offerings</h1> -->
+      <p class="lead">Here's an informal video detailing where we are and where we are going</p>
+
+<!-- I WANNA EMBED VIDEO HERE -->
+      <iframe width="270" height="480" src="https://www.youtube.com/embed/90GoiMIhSwI">
+      </iframe>
+
+    </div>
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h1 class="display-4">Offerings</h1>
-      <p class="lead">This is where we will be displaying the services we can offer, and these offerings will expand as our apprentice-generalists expand their skill sets.</p>
+      <p class="lead">These are the current services we are preparing to offer (click the buttons to send us an inquiry or to be notified about updates)</p>
+
     </div>
 
     <div class="container">
