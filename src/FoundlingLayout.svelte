@@ -27,11 +27,11 @@ function alertTodo(anchorComponent){
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <!-- <h1 class="display-4">Offerings</h1> -->
-      <p class="lead">Here's an informal video detailing where we are and where we are going</p>
+      <p class="lead">Here's <a href="https://youtu.be/90GoiMIhSwI" target="_blank">an informal video</a> detailing where we are and where we are going</p>
 
 <!-- I WANNA EMBED VIDEO HERE -->
-      <iframe width="270" height="480" src="https://www.youtube.com/embed/90GoiMIhSwI">
-      </iframe>
+      <!-- <iframe width="270" height="480" src="https://www.youtube.com/embed/90GoiMIhSwI">
+      </iframe> -->
 
     </div>
 
